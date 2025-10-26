@@ -10,7 +10,6 @@ const handleClick = () => {
   console.log('Button clicked')
 }
 
-// Demo data for SearchableDropdown
 const fruits = [
   { label: '🍎 Яблуко', value: 'apple' },
   { label: '🍌 Банан', value: 'banana' },

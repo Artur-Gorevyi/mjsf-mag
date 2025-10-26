@@ -217,8 +217,3 @@ watch(
   }
 )
 </script>
-
-<style scoped>
-/* No additional CSS — styled with Tailwind classes */
-</style>
-
