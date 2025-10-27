@@ -23,7 +23,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/vue-document-uploader.git"
+    "url": "https://github.com/Artur-Gorevyi/mjsf-mag/tree/main/lab5"
   },
   "peerDependencies": {
     "vue": "^3.0.0"
