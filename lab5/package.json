@@ -1,0 +1,49 @@
+{
+  "name": "vue-document-uploader-lab5",
+  "version": "1.3.0",
+  "description": "A Vue 3 component for file uploads with drag & drop and document preview",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "style": "dist/lab5.css",
+  "keywords": [
+    "vue",
+    "vue3",
+    "upload",
+    "file-upload",
+    "drag-drop",
+    "document-preview",
+    "component",
+    "plugin"
+  ],
+  "author": "Vue Lab Student",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vue-document-uploader.git"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts",
+      "style": "./dist/lab5.css"
+    },
+    "./style": "./dist/lab5.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "vite build --config vite.config.lib.js",
+    "preview": "vite preview"
+  }
+}
+
